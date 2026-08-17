@@ -13,9 +13,9 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="Skill&services.html">Skills & Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html#experience">Experience</a></li>
+                <li><a href="Skill&services.html#skills">Skills</a></li>
+                <li><a href="contact.html#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -23,20 +23,59 @@
     <!-- Home Section -->
     <section id="home">
         <div class="hero">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Your one-stop destination to see my work and get in touch with me.</p>
-        </div>
-
-        <!-- Name Card Section -->
-        <div class="name-card">
-            <img src="https://media.licdn.com/dms/image/v2/D5603AQFlqkmYz_7vKw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730599605282?e=1737590400&v=beta&t=ywC-xdpuQu0DSziT5JEAaO_ti_VvgptEazb1BGNZei0" alt="Profile picture" class="profile-pic">
-            <div class="details">
-                <h2>Shailendra Anagandula</h2>
-                <p>Full Stack Developer</p>
-                <p><strong>Email:</strong> sanagandula@eiu.edu</p>
-                <p><strong>Phone:</strong> +1-217-790-5263</p>
+            <div class="hero-left">
+                <h1>Shailendra A</h1>
+                <div class="tagline">Senior Software Engineer — Backend & Distributed Systems</div>
+                <p class="lead">Designing scalable APIs, distributed systems, and cloud-native platforms that process millions of daily transactions.</p>
+                <div class="hero-ctas">
+                    <a href="about.html#experience" class="btn primary">See Experience</a>
+                    <a href="Skill&services.html#skills" class="btn">View Skills</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-card profile-card">
+                    <div class="profile-title">Senior Software Engineer — Backend & Distributed Systems</div>
+                    <div class="profile-summary">5+ years building scalable REST & GraphQL APIs, microservices architectures, distributed systems, and cloud-native platforms.</div>
+                    <ul class="profile-highlights">
+                        <li>1M API transactions handled per day</li>
+                        <li>90%+ unit & integration test coverage across services</li>
+                        <li>35% transaction throughput improvement (customer services)</li>
+                        <li>40% faster deployments via containerization & CI/CD</li>
+                        <li>50% faster release cycles with Terraform & GitHub Actions</li>
+                        <li>Designed microservices architectures for high-availability API platforms</li>
+                    </ul>
+                    <a href="about.html#experience" class="btn">See Experience</a>
+                </div>
+                <div class="tech-stack" aria-label="tech stack">
+                    <span class="badge">Java</span>
+                    <span class="badge">Kotlin</span>
+                    <span class="badge">Go</span>
+                    <span class="badge">Node.js</span>
+                    <span class="badge">Postgres</span>
+                    <span class="badge">Redis</span>
+                    <span class="badge">AWS</span>
+                    <span class="badge">Kubernetes</span>
+                </div>
             </div>
         </div>
+
+        <section id="projects" class="projects-preview">
+            <h3>Featured Projects</h3>
+            <div class="project-cards">
+                <div class="card">
+                    <h4>Distributed API Platform</h4>
+                    <p>Scales to 1M+ daily requests</p>
+                </div>
+                <div class="card">
+                    <h4>CI/CD &amp; Infra Automation</h4>
+                    <p>50% faster release cycles</p>
+                </div>
+                <div class="card">
+                    <h4>Observability Dashboards</h4>
+                    <p>70% faster incident diagnosis</p>
+                </div>
+            </div>
+        </section>
     </section>
 
     <!-- Footer -->
