@@ -1,4 +1,5 @@
 // Contact form validation
+// This is my JS file
 document.getElementById("contactForm").addEventListener("submit", function(event) {
     event.preventDefault();
 
